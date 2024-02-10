@@ -6,7 +6,7 @@ import Card_Details from "./data/Card_Details";
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./data/Data";
 import {
   TitleCenter1,
-  TitleCenter2,
+ // TitleCenter2,
   TitleCenter3,
 } from "./data/TitleCenterData";
 import Form from "../Home/Components/Form";
