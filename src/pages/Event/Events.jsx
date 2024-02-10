@@ -1,5 +1,5 @@
 import React from "react";
-import Events_Card from "./Components/Event_Card";
+import EventCard from "./Components/EventCard";
 import EventsData from "./data/EventsData";
 import Footer from "../../Components/Footer";
 
@@ -9,7 +9,7 @@ export default function Event() {
     return (
       <>
         {val.template && val.events_on && val.event_name ? (
-          <Events_Card
+          <EventCard
             template={val.template}
             events_on={val.events_on}
             event_name={val.event_name}

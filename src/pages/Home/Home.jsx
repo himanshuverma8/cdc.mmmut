@@ -64,7 +64,7 @@ export default function Home() {
             <div className="row main_content">
               <div className="col-lg-7 col-md-12 mx-auto">
                 <div>
-                  <img className="idea_img" src={ideaImage} alt="Idea-Image" />
+                  <img className="idea_img" src={ideaImage} alt="Idea" />
                 </div>
               </div>
               <div className="col-lg-5 col-md-12 form_container">

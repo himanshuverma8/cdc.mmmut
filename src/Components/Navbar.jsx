@@ -7,18 +7,18 @@ import "./Navbar.css";
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(false);
+  // const [button, setButton] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMoblileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
   return (
     <>
